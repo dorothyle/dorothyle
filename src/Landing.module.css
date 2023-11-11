@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap");
+
+.greeting {
+  color: #353636;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Khula;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 98.066%; /* 3.06456rem */
+
+  width: 11.5rem;
+  margin-bottom: 0.56rem;
+}
+
+.description {
+  color: #353636;
+  text-align: center;
+  font-family: Khula;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 169.945%; /* 3.71756rem */
+  margin-bottom: 0.31rem;
+}
+
+.descriptionChanging {
+  background: linear-gradient(180deg, #956bff 0%, #74e6ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Khula;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 169.945%;
+}
+
+.bio {
+  color: #353636;
+  text-align: center;
+  font-family: Khula;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 1.7rem */
+  width: 19.5rem;
+  margin-bottom: 5.37rem;
+}
+
+.learnMore {
+  color: #353636;
+  text-align: center;
+  font-family: Khula;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 169.945%; /* 1.91188rem */
+}
+
+.homeButton {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.19rem 1.94rem 1.19rem 1.94rem;
+}
+
+.circlePic {
+  height: 15.75rem;
+  margin-top: 1.31rem;
+  margin-bottom: 3rem;
+}
+
+.landingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrowDown {
+  width: 1.25rem;
+  height: 2.4375rem;
+}
