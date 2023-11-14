@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap");
 
+.greetingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headshotContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greetingDesktop {
+  display: none;
+}
+
 .greeting {
   color: #353636;
   text-align: center;
@@ -96,4 +112,64 @@
 .arrowDown {
   width: 1.25rem;
   height: 2.4375rem;
+}
+
+@media screen and (min-width: 700px) {
+  .headshotContainer{
+    flex-direction: row-reverse;
+  }
+
+  .greetingContainer {
+    align-items: flex-start;
+    width: 37.625rem;
+    height: 23.3125rem;
+  }
+
+  .greetingDesktop {
+    display: block;
+    color: #353636;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Khula;
+    font-size: 5.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98.066%; /* 3.06456rem */
+  
+    width: 32.375rem;
+    height: 11.75rem;
+  
+  }
+
+  .greeting {
+    display: none;
+  }
+
+  .description {
+    text-align: left;
+    font-size: 3.3rem;
+  }
+  
+  .descriptionChanging {
+    font-size: 3.3rem;
+  }
+
+  .bio {
+    text-align: left;
+    font-size: 1.5625rem;
+    width: 34.25rem;
+    height: 5.1875rem;
+  }
+
+  .circlePic {
+    height: 30em;
+  }
+
+  .learnMore {
+    font-size: 1.7rem;
+  }
+
+  .arrowDown {
+    width: 2rem;
+    }
 }
