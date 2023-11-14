@@ -114,14 +114,15 @@
   height: 2.4375rem;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 665px) {
   .headshotContainer {
     flex-direction: row-reverse;
+    margin-bottom: 1.5rem;
   }
 
   .greetingContainer {
     align-items: flex-start;
-    width: 24rem;
+    width: 21rem;
     height: 23.3125rem;
     justify-content: center;
   }
@@ -132,7 +133,7 @@
     text-align: left;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Khula;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: 98.066%; /* 3.06456rem */
@@ -144,83 +145,58 @@
 
   .description {
     text-align: left;
-    font-size: 2.2rem;
+    font-size: 1.9rem;
   }
 
   .descriptionChanging {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
   }
 
   .bio {
     text-align: left;
-    font-size: 1.1rem;
-    width: 24rem;
-    /* height: 5.1875rem; */
-    margin: 0em;
+    font-size: 0.95rem;
+    width: 21rem;
+    margin: 0rem;
   }
 
   .circlePic {
-    height: 20em;
-    margin: 0em;
+    height: 17rem;
+    margin: 0rem;
   }
 
   .learnMore {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .arrowDown {
-    width: 2rem;
+    width: 1.25rem;
+    height: 1.1rem;
   }
 }
 
 @media screen and (min-width: 988px) {
   .headshotContainer {
-    flex-direction: row-reverse;
+    margin-bottom: 4rem;
   }
-
   .greetingContainer {
-    align-items: flex-start;
     width: 31rem;
-    height: 23.3125rem;
-    justify-content: center;
   }
 
   .greetingDesktop {
-    display: block;
-    color: #353636;
-    text-align: left;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Khula;
     font-size: 4.2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 98.066%; /* 3.06456rem */
   }
 
-  .greeting {
-    display: none;
-  }
-
-  .description {
-    text-align: left;
-    font-size: 2.6rem;
-  }
-
-  .descriptionChanging {
+  .description, .descriptionChanging {
     font-size: 2.6rem;
   }
 
   .bio {
-    text-align: left;
     font-size: 1.4rem;
     width: 30rem;
-    /* height: 5.1875rem; */
-    margin: 0em;
   }
 
   .circlePic {
-    height: 25em;
-    margin: 0em;
+    height: 25rem;
   }
 
   .learnMore {
@@ -228,59 +204,31 @@
   }
 
   .arrowDown {
-    width: 2rem;
+    width: 1.5rem;
   }
 }
 
-/* when greater than 1212 do this */
 @media screen and (min-width: 1212px) {
-  .headshotContainer {
-    flex-direction: row-reverse;
-  }
-
   .greetingContainer {
-    align-items: flex-start;
     width: 37.625rem;
-    height: 23.3125rem;
   }
 
   .greetingDesktop {
-    display: block;
-    color: #353636;
-    text-align: left;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Khula;
     font-size: 5.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 98.066%; /* 3.06456rem */
-
-    width: 32.375rem;
-    height: 11.75rem;
   }
 
-  .greeting {
-    display: none;
-  }
-
-  .description {
-    text-align: left;
-    font-size: 3.3rem;
-  }
-
-  .descriptionChanging {
+  .description, .descriptionChanging {
     font-size: 3.3rem;
   }
 
   .bio {
-    text-align: left;
     font-size: 1.5625rem;
     width: 34.25rem;
     height: 5.1875rem;
   }
 
   .circlePic {
-    height: 30em;
+    height: 30rem;
   }
 
   .learnMore {
