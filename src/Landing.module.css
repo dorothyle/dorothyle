@@ -117,9 +117,12 @@
 .expertiseTechContainer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-top: 5rem;
   width: 17.75rem;
+  height: 38rem;
 
+  /* background-color: red; */
   color: #353636;
 
   font-family: Khula;
@@ -130,11 +133,30 @@
 }
 
 .expertiseText {
+  font-family: Khula;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 169.945%; /* 3.1865rem */
   text-align: center;
 }
 
 .techStackText {
+  font-family: Khula;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 169.945%; /* 3.1865rem */
+
   text-align: center;
+}
+
+.expertiseBraces,
+.techStackBraces {
+  background: linear-gradient(180deg, #956bff 0%, #74e6ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (min-width: 665px) {
