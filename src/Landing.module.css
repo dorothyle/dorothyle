@@ -334,4 +334,22 @@
     width: 79.6875rem;
     height: 38.1875rem;
   }
+
+  .expertiseTechContainer {
+    width: 65rem;
+    height: 35rem;
+  }
+
+  .expertiseText, .techStackText {
+    font-size: 3.125rem;
+  }
+
+  .expertiseSplurge, .techStackSplurge {
+    font-size: 1.8rem;
+    line-height: 140%;
+  }
+  
+  .expertiseContainer, .techStackContainer {
+    width: 30rem;
+  }
 }
