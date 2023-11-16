@@ -169,7 +169,6 @@
   font-weight: 600;
   line-height: 169.945%; /* 2.65538rem */
   margin-bottom: 2.5rem;
-  /* background: blue; */
 
   display: flex;
   flex-direction: column;
@@ -184,7 +183,6 @@
 }
 
 .contactButtons {
-  /* background: red; */
   display: flex;
   justify-content: space-between;
   width: 9rem;
@@ -276,6 +274,10 @@
     flex-direction: column;
     justify-content: flex-end;
   }
+
+  .contactContainer {
+    margin-top: 1rem;
+  }
 }
 
 @media screen and (min-width: 988px) {
@@ -331,6 +333,18 @@
   .expertiseContainer,
   .techStackContainer {
     width: 24rem;
+  }
+
+  .contactContainer {
+    font-size: 1.8rem;
+  }
+
+  .contactButtons {
+    width: 10rem;
+  }
+
+  .contactButtons img {
+    height: 2.3rem;
   }
 }
 
