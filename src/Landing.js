@@ -43,7 +43,7 @@ const Landing = () => {
               <span className={style.expertiseBraces}>{"{ "}</span> Expertise
               <span className={style.expertiseBraces}>{" }"}</span>
             </h2>
-            <p>
+            <p className={style.expertiseSplurge}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -55,7 +55,7 @@ const Landing = () => {
               <span className={style.techStackBraces}>{"{ "}</span> Tech Stack
               <span className={style.techStackBraces}>{" }"}</span>
             </h2>
-            <p>
+            <p className={style.techStackSplurge}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

@@ -117,9 +117,13 @@
 .expertiseTechContainer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-top: 5rem;
+  margin-bottom: 10rem; /* dummy value for now */
   width: 17.75rem;
+  height: 38rem;
 
+  /* background-color: red; */
   color: #353636;
 
   font-family: Khula;
@@ -130,11 +134,30 @@
 }
 
 .expertiseText {
+  font-family: Khula;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 169.945%; /* 3.1865rem */
   text-align: center;
 }
 
 .techStackText {
+  font-family: Khula;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 169.945%; /* 3.1865rem */
+
   text-align: center;
+}
+
+.expertiseBraces,
+.techStackBraces {
+  background: linear-gradient(180deg, #956bff 0%, #74e6ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (min-width: 665px) {
@@ -195,12 +218,38 @@
     width: 1.25rem;
     height: 1.1rem;
   }
+
+  .expertiseTechContainer {
+    flex-direction: row;
+    width: 38rem;
+    height: 27rem;
+  }
+
+  .expertiseText, .techStackText {
+    text-align: left;
+    font-size: 1.6rem;
+  }
+
+  .expertiseSplurge, .techStackSplurge {
+    font-size: 1.1rem;
+  }
+  
+  .expertiseContainer, .techStackContainer {
+    width: 18rem;
+  }
+
+  .techStackContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
 }
 
 @media screen and (min-width: 988px) {
   .headshotContainer {
     margin-bottom: 4rem;
   }
+
   .greetingContainer {
     width: 31rem;
   }
@@ -229,6 +278,23 @@
 
   .arrowDown {
     width: 1.5rem;
+  }
+
+  .expertiseTechContainer {
+    width: 50rem;
+    height: 24rem;
+  }
+
+  .expertiseText, .techStackText {
+    font-size: 2rem;
+  }
+
+  .expertiseSplurge, .techStackSplurge {
+    font-size: 1.3rem;
+  }
+  
+  .expertiseContainer, .techStackContainer {
+    width: 24rem;
   }
 }
 
@@ -262,5 +328,28 @@
 
   .arrowDown {
     width: 2rem;
+  }
+
+  .expertiseTechContainer {
+    width: 79.6875rem;
+    height: 38.1875rem;
+  }
+
+  .expertiseTechContainer {
+    width: 65rem;
+    height: 35rem;
+  }
+
+  .expertiseText, .techStackText {
+    font-size: 3.125rem;
+  }
+
+  .expertiseSplurge, .techStackSplurge {
+    font-size: 1.8rem;
+    line-height: 140%;
+  }
+  
+  .expertiseContainer, .techStackContainer {
+    width: 30rem;
   }
 }
