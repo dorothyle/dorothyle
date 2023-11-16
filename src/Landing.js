@@ -63,6 +63,17 @@ const Landing = () => {
             </p>
           </div>
         </div>
+
+        <div className={style.contactContainer}>
+          <h3 className={style.connectText}>
+            <span className={style.hashtagConnect}>#</span> Connect with me!
+          </h3>
+          <div className={style.contactButtons}>
+            <a className={style.linkedinButton} href="https://www.linkedin.com/in/dorothykle/">LinkedIn</a>
+            <a className={style.githubButton} href="https://github.com/dorothyle">Github</a>
+            <a className={style.emailButton} href="mailto:dorothykle@gmail.com">Email</a>
+          </div>
+        </div>
       </div>
     </section>
   );
