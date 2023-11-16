@@ -3,6 +3,9 @@ import homeLogo from "./homeLogo.svg";
 import circlePic from "./circlePic.png";
 import hamburgerMenu from "./hamburgerMenu.svg";
 import arrowDown from "./arrowDown.svg";
+import linkedinLogo from "./linkedinLogo.svg";
+import githubLogo from "./githubLogo.svg";
+import emailLogo from "./emailLogo.svg";
 
 const Landing = () => {
   return (
@@ -61,6 +64,17 @@ const Landing = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
+          </div>
+        </div>
+
+        <div className={style.contactContainer}>
+          <h3 className={style.connectText}>
+            <span className={style.hashtag}>#</span> Connect with me!
+          </h3>
+          <div className={style.contactButtons}>
+            <a className={style.linkedinButton} href="https://www.linkedin.com/in/dorothykle/"><img src={linkedinLogo}/></a>
+            <a className={style.githubButton} href="https://github.com/dorothyle"><img src={githubLogo}/></a>
+            <a className={style.emailButton} href="mailto:dorothykle@gmail.com"><img src={emailLogo}></img></a>
           </div>
         </div>
       </div>
