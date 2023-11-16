@@ -188,6 +188,7 @@
   width: 9rem;
 }
 
+/* Small */
 @media screen and (min-width: 665px) {
   .headshotContainer {
     flex-direction: row-reverse;
@@ -196,9 +197,11 @@
 
   .greetingContainer {
     align-items: flex-start;
-    width: 21rem;
+    width: 23rem;
     height: 23.3125rem;
+    margin-right: 3rem;
     justify-content: center;
+    /* border: 1px solid blue; */
   }
 
   .greetingDesktop {
@@ -280,13 +283,16 @@
   }
 }
 
+/* Medium */
 @media screen and (min-width: 988px) {
   .headshotContainer {
     margin-bottom: 4rem;
+    justify-content: space-around;
   }
 
   .greetingContainer {
-    width: 31rem;
+    width: 32rem;
+    margin-right: 0rem;
   }
 
   .greetingDesktop {
@@ -348,13 +354,19 @@
   }
 }
 
+/* Large */
 @media screen and (min-width: 1212px) {
   .bodyContainer {
     margin-top: 3rem;
   }
+
+  .headshotContainer {
+    width: 80%;
+    justify-content: space-around;
+  }
   
   .greetingContainer {
-    width: 37.625rem;
+    width: 40rem;
   }
 
   .greetingDesktop {
