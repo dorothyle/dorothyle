@@ -249,6 +249,7 @@
   .headshotContainer {
     margin-bottom: 4rem;
   }
+
   .greetingContainer {
     width: 31rem;
   }
@@ -277,6 +278,23 @@
 
   .arrowDown {
     width: 1.5rem;
+  }
+
+  .expertiseTechContainer {
+    width: 50rem;
+    height: 24rem;
+  }
+
+  .expertiseText, .techStackText {
+    font-size: 2rem;
+  }
+
+  .expertiseSplurge, .techStackSplurge {
+    font-size: 1.3rem;
+  }
+  
+  .expertiseContainer, .techStackContainer {
+    width: 24rem;
   }
 }
 
