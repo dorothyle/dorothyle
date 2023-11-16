@@ -168,6 +168,12 @@
   font-style: normal;
   font-weight: 600;
   line-height: 169.945%; /* 2.65538rem */
+  margin-bottom: 2.5rem;
+  /* background: blue; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hashtag {
@@ -175,6 +181,13 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.contactButtons {
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+  width: 9rem;
 }
 
 @media screen and (min-width: 665px) {
