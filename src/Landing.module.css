@@ -283,10 +283,11 @@
 @media screen and (min-width: 988px) {
   .headshotContainer {
     margin-bottom: 4rem;
+    justify-content: space-around;
   }
 
   .greetingContainer {
-    width: 31rem;
+    width: 34rem;
   }
 
   .greetingDesktop {
@@ -354,7 +355,8 @@
   }
   
   .greetingContainer {
-    width: 37.625rem;
+    width: 30rem;
+    /* background-color: red; */
   }
 
   .greetingDesktop {

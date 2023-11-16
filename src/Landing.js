@@ -6,6 +6,7 @@ import arrowDown from "./arrowDown.svg";
 import linkedinLogo from "./linkedinLogo.svg";
 import githubLogo from "./githubLogo.svg";
 import emailLogo from "./emailLogo.svg";
+import ReactTyped from "react-typed";
 
 const Landing = () => {
   return (
@@ -27,7 +28,15 @@ const Landing = () => {
             </h1>
             <h2 className={style.description}>
               I am{" "}
-              <span className={style.descriptionChanging}>a developer</span>
+              <ReactTyped
+                strings={["a developer", "a problem-solver", "a software engineer", "a full-stack developer"]}
+                typeSpeed={140}
+                loop
+                backSpeed={100}
+                cursorChar="|"
+                showCursor={false}
+                className={style.descriptionChanging}
+              />
             </h2>
             <p className={style.bio}>
               A recent Computer Science graduate from UC Davis seeking New Grad
@@ -72,9 +81,21 @@ const Landing = () => {
             <span className={style.hashtag}>#</span> Connect with me!
           </h3>
           <div className={style.contactButtons}>
-            <a className={style.linkedinButton} href="https://www.linkedin.com/in/dorothykle/"><img src={linkedinLogo}/></a>
-            <a className={style.githubButton} href="https://github.com/dorothyle"><img src={githubLogo}/></a>
-            <a className={style.emailButton} href="mailto:dorothykle@gmail.com"><img src={emailLogo}></img></a>
+            <a
+              className={style.linkedinButton}
+              href="https://www.linkedin.com/in/dorothykle/"
+            >
+              <img src={linkedinLogo} />
+            </a>
+            <a
+              className={style.githubButton}
+              href="https://github.com/dorothyle"
+            >
+              <img src={githubLogo} />
+            </a>
+            <a className={style.emailButton} href="mailto:dorothykle@gmail.com">
+              <img src={emailLogo}></img>
+            </a>
           </div>
         </div>
       </div>
