@@ -405,4 +405,16 @@
   .techStackContainer {
     width: 30rem;
   }
+
+  .contactContainer {
+    font-size: 2.3rem;
+  }
+
+  .contactButtons {
+    width: 12rem;
+  }
+  
+  .contactButtons img {
+    height: 2.3rem;
+  }
 }
