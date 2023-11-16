@@ -197,9 +197,11 @@
 
   .greetingContainer {
     align-items: flex-start;
-    width: 21rem;
+    width: 23rem;
     height: 23.3125rem;
+    margin-right: 3rem;
     justify-content: center;
+    /* border: 1px solid blue; */
   }
 
   .greetingDesktop {
@@ -290,6 +292,7 @@
 
   .greetingContainer {
     width: 32rem;
+    margin-right: 0rem;
   }
 
   .greetingDesktop {
