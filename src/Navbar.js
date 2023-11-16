@@ -1,8 +1,9 @@
 import homeLogo from "./homeLogo.svg";
+import hamburgerMenu from "./hamburgerMenu.svg";
 
-const Navbar = () => {
+const Hamburger = () => {
   return (
-    <div className={style.navBarContainer}>
+    <div className={style.navbarContainer}>
       <img className={style.homeButton} src={homeLogo} />
 
       <div className={style.navLinksContainer}>
@@ -12,9 +13,12 @@ const Navbar = () => {
           <li>Experience</li>
           <li>Resume</li>
         </ul>
+        <div className={style.hamburger}>
+          <img src={hamburgerMenu} />
+        </div>
       </div>
     </div>
   );
 };
 
-export { Navbar };
+export { Hamburger };
