@@ -1,0 +1,17 @@
+.navlinks.open {
+  display: block;
+}
+
+.navlinks {
+  display: none;
+}
+
+@media screen and (min-width: 988px) {
+    .hamburger {
+        display: none;
+    }
+
+    .navlinks {
+        display: block;
+    }
+}
