@@ -11,13 +11,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className={style.navbarContainer}>
-      <img className={style.homeButton} src={homeLogo} />
+    <div>
+      <div className={style.navbarContainer}>
+        <img className={style.homeButton} src={homeLogo} />
 
-      <div className={style.hamburger} onClick={toggleHamburger}>
-        <img src={hamburgerMenu} />
+        <div className={style.hamburger} onClick={toggleHamburger}>
+          <img src={hamburgerMenu} />
+        </div>
       </div>
-
       <div className={style.navlinksContainer}>
         <ul className={`${style.navlinks} ${hamburgerOpen ? style.open : ""}`}>
           <li>About</li>
