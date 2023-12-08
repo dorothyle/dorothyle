@@ -31,8 +31,7 @@
 .navlinks li {
   padding-top: 0.5rem;
   padding-bottom: 0.1rem;
-  border-bottom: 1px solid pink;
-  border: 10px solid;
+  border-bottom: 10px solid;
   border-image-slice: 1;
   border-width: 0.1rem;
   width: 16.6875rem;
@@ -42,9 +41,6 @@
     rgba(149, 107, 255, 0.45) 0%,
     rgba(116, 230, 255, 0.45) 100%
   );
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
 }
 
 .navlinks li:nth-child(4) {
