@@ -9,6 +9,14 @@
   z-index: 2;
 }
 
+.homeButton {
+  margin-left: 2rem;
+}
+
+.hamburger {
+  margin-right: 2rem;
+}
+
 .navlinks.open {
   display: flex;
   flex-direction: column;
@@ -29,6 +37,9 @@
   font-weight: 600;
   line-height: 169.945%; /* 2.76163rem */
   z-index: 2;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .navlinks li {
@@ -64,6 +75,16 @@
   z-index: 1;
   background: linear-gradient(0deg, rgba(53, 54, 54, 0.60) 0%, rgba(53, 54, 54, 0.00) 65.09%);
   backdrop-filter: blur(4px);
+}
+
+@media screen and (min-width: 790px) {
+  .homeButton {
+    margin-left: 5rem;
+  }
+  
+  .hamburger {
+    margin-right: 5rem;
+  }
 }
 
 @media screen and (min-width: 988px) {
