@@ -21,6 +21,7 @@ const Navbar = () => {
           <img className={`${style.xLogo} ${hamburgerOpen ? style.appear : ""}`} src={xLogo} />
         </div>
       </div>
+      
       <div className={style.navlinksContainer}>
         <ul className={`${style.navlinks} ${hamburgerOpen ? style.open : ""}`}>
           <li>About</li>
