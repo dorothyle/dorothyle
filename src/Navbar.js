@@ -27,6 +27,8 @@ const Navbar = () => {
           <li>Resume</li>
         </ul>
       </div>
+      <div className={`${style.blurredBackground} ${hamburgerOpen ? style.appear : ""}`}>
+      </div>
     </div>
   );
 };
