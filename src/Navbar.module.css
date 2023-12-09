@@ -17,6 +17,18 @@
   margin-right: 2rem;
 }
 
+.hamburgerLogo.disappear {
+  display: none;
+}
+
+.xLogo {
+  display: none;
+}
+
+.xLogo.appear {
+  display: block;
+}
+
 .navlinks.open {
   display: flex;
   flex-direction: column;
