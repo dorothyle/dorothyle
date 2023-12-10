@@ -5,13 +5,10 @@ import linkedinLogo from "./linkedinLogo.svg";
 import githubLogo from "./githubLogo.svg";
 import emailLogo from "./emailLogo.svg";
 import ReactTyped from "react-typed";
-import { Navbar } from "./Navbar";
 
 const Landing = () => {
   return (
     <section className={style.landingContainer}>
-      <Navbar />
-
       <div className={style.bodyContainer}>
         <div className={style.headshotContainer}>
           <img src={circlePic} className={style.circlePic} />
