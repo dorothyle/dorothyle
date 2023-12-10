@@ -115,17 +115,13 @@
   backdrop-filter: blur(4px);
 }
 
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 910px) {
   .homeButton {
     margin-left: 5rem;
   }
-
-  .hamburger {
-    margin-right: 5rem;
-  }
 }
 
-@media screen and (min-width: 988px) {
+@media screen and (min-width: 665px) {
   .hamburger {
     display: none;
   }
@@ -143,11 +139,12 @@
   }
 
   .homeButton {
-    height: 5rem;
+    height: 3rem;
+    margin-left: 2rem;
   }
 
   .navlinksContainer {
-    width: 45%;
+    width: 50%;
     margin-right: 5rem;
   }
 
@@ -164,7 +161,7 @@
     justify-content: space-between;
     color: #353636;
     font-family: Khula;
-    font-size: 1.875rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 169.945%; /* 3.1865rem */
@@ -181,16 +178,33 @@
   }
 }
 
-@media screen and (max-width: 1212px) {
+@media screen and (max-width: 770px) {
   .navlinksContainer {
-    width: 45%;
+    width: 55%;
   }
+}
 
+@media screen and (min-width: 988px) {
   .navlinks {
     font-size: 1.5rem;
   }
 
   .homeButton {
     height: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1212px) {
+  .navlinksContainer {
+    width: 45%;
+  }
+
+  .homeButton {
+    height: 5rem;
+    margin-left: 5rem;
+  }
+
+  .navlinks {
+    font-size: 1.875rem;
   }
 }
