@@ -1,20 +1,16 @@
 import style from "./Landing.module.css";
-import homeLogo from "./homeLogo.svg";
 import circlePic from "./circlePic.png";
-import hamburgerMenu from "./hamburgerMenu.svg";
 import arrowDown from "./arrowDown.svg";
 import linkedinLogo from "./linkedinLogo.svg";
 import githubLogo from "./githubLogo.svg";
 import emailLogo from "./emailLogo.svg";
 import ReactTyped from "react-typed";
+import { Navbar } from "./Navbar";
 
 const Landing = () => {
   return (
     <section className={style.landingContainer}>
-      <div className={style.navContainer}>
-        <img src={homeLogo} />
-        <img src={hamburgerMenu} />
-      </div>
+      <Navbar />
 
       <div className={style.bodyContainer}>
         <div className={style.headshotContainer}>
