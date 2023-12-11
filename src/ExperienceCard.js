@@ -1,25 +1,49 @@
-const ExperienceCard = ({obj}) => {
-    function printTags() {
-        let tags = "";
-        for (let i = 0; i < obj.tags.length; i++) {
-            tags += obj.tags[i] + " ";
-        }
-        return (
-            <div>
-                Tags: { tags }
-            </div>
-        )
-    }
+import style from "./ExperienceCard.module.css";
+import { Tag } from "./Tag.js";
+import plusSign from "./plusSign.svg";
+import minusSign from "./minusSign.svg";
+import { useState } from "react";
 
-    return (
-      <div>
-        <div>The company is {obj.company}</div>
-        <div>The role is {obj.role}</div>
-        <div>Description: {obj.description[1]}</div>
-        { printTags() }
-        <br></br>
-      </div>
-    );
+const ExperienceCard = ({ obj }) => {
+  const [cardOpen, setCardOpen] = useState(false);
+
+  const toggleCardOpen = () => {
+    setCardOpen(!cardOpen);
   };
-  
-  export { ExperienceCard };
+
+  return (
+    <div className={style.experienceCardContainer}>
+
+      <div className={style.roleTitleContainer}>
+        <img className={style.companyLogo} src={"/" + obj.image} />
+        <h2>{obj.role}</h2>
+        <img className={style.plusSign} src={plusSign} />
+        <img className={style.minusSign} src={minusSign} />
+      </div>
+
+      <div className={style.contentContainer}>
+        <div className={style.subheadingContainer}>
+          <h3>{obj.company}</h3>
+          <h3>
+            {obj.startDate} - {obj.endDate}
+          </h3>
+        </div>
+
+        <div className={style.descriptionContainer}>
+          {obj.description.map((bulletPoint) => (
+            <p>{bulletPoint}</p>
+          ))}
+        </div>
+
+        <div className={style.tagsContainer}>
+          {obj.tags.map((tagWord) => (
+            <Tag word={tagWord} />
+          ))}
+        </div>
+      </div>
+
+    </div>
+  );
+};
+
+export { ExperienceCard };
