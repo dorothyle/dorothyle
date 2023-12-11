@@ -5,7 +5,6 @@ import { Navbar } from "./Navbar";
 import { Landing } from "./Landing";
 import { Experience } from "./Experience";
 
-
 function App() {
   return (
     <div className="App">
