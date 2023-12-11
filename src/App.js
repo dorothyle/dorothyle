@@ -1,8 +1,10 @@
 import "./App.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Landing } from "./Landing";
 import { Navbar } from "./Navbar";
+import { Landing } from "./Landing";
+import { Experience } from "./Experience";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route exact path="/" element={<Landing/>} />
+            <Route exact path="experience" element={<Experience/>} />
             <Route path="*" element={<Landing/>} />
           </Routes>
         </div>
