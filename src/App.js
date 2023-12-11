@@ -1,5 +1,4 @@
 import "./App.css";
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./Navbar";
 import { Landing } from "./Landing";
@@ -17,7 +16,7 @@ function App() {
             <Route path="*" element={<Landing/>} />
           </Routes>
         </div>
-      </BrowserRouter>{" "}
+      </BrowserRouter>
     </div>
   );
 }
