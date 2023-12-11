@@ -2,7 +2,7 @@ import style from "./ExperienceCard.module.css";
 import { Tag } from "./Tag.js";
 import plusSign from "./plusSign.svg";
 import minusSign from "./minusSign.svg";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 const ExperienceCard = ({ obj }) => {
   const [cardOpen, setCardOpen] = useState(false);
@@ -11,16 +11,26 @@ const ExperienceCard = ({ obj }) => {
     setCardOpen(!cardOpen);
   };
 
-  return (
-    <div className={style.experienceCardContainer}>
+  const contentRef = useRef();
 
-      <div className={style.roleTitleContainer}>
+  return (
+    <div
+      className={`${style.experienceCardContainer} ${
+        cardOpen ? style.open : ""
+      }`}
+      ref={contentRef}
+      style={
+        cardOpen
+          ? { height: contentRef.current.scrollHeight + "px" }
+          : { height: "100px" }
+      }
+    >
+      <div className={style.roleTitleContainer} onClick={toggleCardOpen}>
         <img className={style.companyLogo} src={"/" + obj.image} />
         <h2>{obj.role}</h2>
         <img className={style.plusSign} src={plusSign} />
         <img className={style.minusSign} src={minusSign} />
       </div>
-
       <div className={style.contentContainer}>
         <div className={style.subheadingContainer}>
           <h3>{obj.company}</h3>
@@ -41,7 +51,6 @@ const ExperienceCard = ({ obj }) => {
           ))}
         </div>
       </div>
-
     </div>
   );
 };
