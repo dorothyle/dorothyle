@@ -1,6 +1,8 @@
+import style from "./Tag.module.css";
+
 const Tag = ({word}) => {
     return (
-      <div>
+      <div className={style.tagBox}>
         {word}
       </div>
     );
