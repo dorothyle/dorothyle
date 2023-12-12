@@ -1,25 +1,32 @@
 .experienceCardContainer {
-    overflow:hidden;
-    margin: 2rem;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #956bff 0%, #74e6ff 100%) border-box;
+  border: 5px solid transparent;
+  border-radius: 1rem;
+
+  overflow: hidden;
+  margin: 2rem;
+
+  transition: 0.4s ease-in-out;
 }
 
 .roleTitleContainer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .companyContainer {
-    display: flex;
+  display: flex;
 }
 
 .plusSign.noShow {
-    display: none;
+  display: none;
 }
 
 .minusSign {
-    display: none;
+  display: none;
 }
 
 .minusSign.show {
-    display: block;
+  display: block;
 }
