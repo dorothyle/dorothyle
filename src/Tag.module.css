@@ -1,3 +1,22 @@
 .tagBox {
-    border: 1px solid pink;
+  background: linear-gradient(white, white) padding-box, 
+  linear-gradient(rgba(149, 107, 255, 0.70) 0%, #74e6ff 100%) border-box;
+  border: 3px solid transparent;
+  border-radius: 0.6875rem;
+
+
+  color: #353636;
+  font-family: Khula;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.2rem;
+
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
 }
