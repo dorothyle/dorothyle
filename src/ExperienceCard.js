@@ -26,10 +26,18 @@ const ExperienceCard = ({ obj }) => {
       }
     >
       <div className={style.roleTitleContainer} onClick={toggleCardOpen}>
-        <img className={style.companyLogo} src={"/" + obj.image} />
-        <h2>{obj.role}</h2>
-        <img className={style.plusSign} src={plusSign} />
-        <img className={style.minusSign} src={minusSign} />
+        <div className={style.companyContainer}>
+          <img className={style.companyLogo} src={"/" + obj.image} />
+          <h2>{obj.role}</h2>
+        </div>
+        <img
+          className={`${style.plusSign} ${cardOpen ? style.noShow : ""}`}
+          src={plusSign}
+        />
+        <img
+          className={`${style.minusSign} ${cardOpen ? style.show : ""}`}
+          src={minusSign}
+        />
       </div>
       <div className={style.contentContainer}>
         <div className={style.subheadingContainer}>

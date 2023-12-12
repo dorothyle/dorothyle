@@ -1,0 +1,25 @@
+.experienceCardContainer {
+    overflow:hidden;
+    margin: 2rem;
+}
+
+.roleTitleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyContainer {
+    display: flex;
+}
+
+.plusSign.noShow {
+    display: none;
+}
+
+.minusSign {
+    display: none;
+}
+
+.minusSign.show {
+    display: block;
+}
