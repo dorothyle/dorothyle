@@ -1,21 +1,33 @@
 .tagBox {
-  background: linear-gradient(white, white) padding-box, 
-  linear-gradient(rgba(149, 107, 255, 0.70) 0%, #74e6ff 100%) border-box;
-  border: 3px solid transparent;
-  border-radius: 0.6875rem;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(rgba(149, 107, 255, 0.7) 0%, #74e6ff 100%) border-box;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
 
   color: #353636;
   font-family: Khula;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2rem;
 
   display: inline-block;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
   padding-top: 0.2rem;
 
-  margin-right: 0.3rem;
+  margin-right: 0.15rem;
   margin-bottom: 0.3rem;
+}
+
+@media screen and (min-width: 700px) {
+  /* dummy width */
+  .tagBox {
+    border: 3px solid transparent;
+    border-radius: 0.6875rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-right: 0.3rem;
+  }
 }
