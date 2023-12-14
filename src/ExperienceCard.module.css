@@ -18,7 +18,14 @@
 .roleTitleContainer {
   display: flex;
   justify-content: space-between;
-  margin: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.experienceCardContainer {
+  height: 3.4rem;
 }
 
 .companyInfoContainer {
@@ -61,4 +68,22 @@
 
 .minusSign.show {
   display: block;
+}
+
+.contentContainer {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.subheadingContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.descriptionContainer {
+  font-size: 0.7rem;
 }

@@ -23,11 +23,10 @@ const ExperienceCard = ({ obj }) => {
       style={
         cardOpen
           ? { height: openCardRef.current.scrollHeight + "px" }
-          : { height: "4rem" }
-        //   : { height: closedCardRef.current.scrollHeight + "px" }
+          : { }
       }
     >
-      <div className={style.roleTitleContainer} onClick={toggleCardOpen} ref={closedCardRef}>
+      <div className={style.roleTitleContainer} onClick={toggleCardOpen}>
         <div className={style.companyInfoContainer}>
           <div className={style.companyLogoContainer}>
             <img className={style.companyLogo} src={"/" + obj.image} />
