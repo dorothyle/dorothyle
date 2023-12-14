@@ -11,23 +11,27 @@ const ExperienceCard = ({ obj }) => {
     setCardOpen(!cardOpen);
   };
 
-  const contentRef = useRef();
+  const openCardRef = useRef();
+  const closedCardRef = useRef();
 
   return (
     <div
       className={`${style.experienceCardContainer} ${
         cardOpen ? style.open : ""
       }`}
-      ref={contentRef}
+      ref={openCardRef}
       style={
         cardOpen
-          ? { height: contentRef.current.scrollHeight + "px" }
-          : { height: "100px" }
+          ? { height: openCardRef.current.scrollHeight + "px" }
+          : { height: "4rem" }
+        //   : { height: closedCardRef.current.scrollHeight + "px" }
       }
     >
-      <div className={style.roleTitleContainer} onClick={toggleCardOpen}>
-        <div className={style.companyContainer}>
-          <img className={style.companyLogo} src={"/" + obj.image} />
+      <div className={style.roleTitleContainer} onClick={toggleCardOpen} ref={closedCardRef}>
+        <div className={style.companyInfoContainer}>
+          <div className={style.companyLogoContainer}>
+            <img className={style.companyLogo} src={"/" + obj.image} />
+          </div>
           <h2>{obj.role}</h2>
         </div>
         <img
