@@ -19,7 +19,14 @@
   margin-bottom: 0.3rem;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 665px) {
+  .tagBox {
+    border: 0.1rem solid transparent;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
   /* dummy width */
   .tagBox {
     border: 3px solid transparent;

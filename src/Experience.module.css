@@ -13,8 +13,20 @@
 }
 
 .symbolTitle {
-    background: linear-gradient(180deg, #956bff 0%, #74e6ff 75%);
-    background-clip: text;
+  background: linear-gradient(180deg, #956bff 0%, #74e6ff 75%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Small */
+@media screen and (min-width: 665px) {
+  .experienceContainer {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+
+  .titleContainer {
+    font-size: 2rem;
+  }
 }
