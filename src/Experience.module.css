@@ -1,0 +1,20 @@
+.experienceContainer {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+.titleContainer {
+  color: #353636;
+  font-family: Khula;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.symbolTitle {
+    background: linear-gradient(180deg, #956bff 0%, #74e6ff 75%);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -28,7 +28,7 @@ const Experience = () => {
   return (
     <section className={style.experienceContainer}>
       <div className={style.titleContainer}>
-        <h1>&lt;/&gt; Experience</h1>
+        <h1><span className={style.symbolTitle}>&lt;/&gt;</span> Experience</h1>
       </div>
 
       <div className={style.cardsContainer}>
