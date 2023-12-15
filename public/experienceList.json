@@ -1,0 +1,154 @@
+[
+  {
+    "id": "marqetaIntern",
+    "company": "Marqeta",
+    "role": "Software Engineer Intern",
+    "image": "marqetaLogo.png",
+    "startDate": "Jun 2023",
+    "endDate": "Aug 2023",
+    "description": [
+      "• Developed and deployed into production key PUT and POST endpoints critical for accruing MCC purchase-based rewards, introducing an additional avenue for rewards accrual for 100+ company clients.",
+      "• Enhanced accuracy and reduced latency in reward allocation by refactoring existing codebase to dynamically check payment transactions against queried MCC reward rules.",
+      "• Improved system reliability and seamless feature integration by implementing validation layers and authoring functional, unit, and integration tests."
+    ],
+    "tags": [
+      "Java",
+      "SQL",
+      "OpenAPI",
+      "Docker",
+      "DBeaver",
+      "Postman",
+      "Bazel",
+      "DRONE",
+      "Github",
+      "API Endpoints",
+      "Problem-Solving",
+      "Debugging",
+      "QA Testing",
+      "Critical Thinking",
+      "SCRUM",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": "hackdavisDirector",
+    "company": "HackDavis",
+    "role": "Technical Director",
+    "image": "hackdavisLogo.svg",
+    "startDate": "Jun 2022",
+    "endDate": "Jun 2023",
+    "description": [
+      "• Streamlined judging process by developing a Python app to compute project ranking results, reducing judging time by 40% and ensuring accurate evaluation of 150+ hackathon projects.",
+      "• Collaborated with design and tech team to develop user-friendly landing page using NextJS, SCSS, and TypeScript, improving event visibility to 1000+ students and increasing event registration by 30%."
+    ],
+    "tags": [
+      "NextJS",
+      "Typescript",
+      "Python",
+      "Web development",
+      "Problem-solving",
+      " Teamwork",
+      "Communication"
+    ]
+  },
+  {
+    "id": "includeTechLead",
+    "company": "#include",
+    "role": "Tech Lead",
+    "image": "includeLogo.jpeg",
+    "startDate": "Jan 2022",
+    "endDate": "Jun 2023",
+    "description": [
+      "• Spearheaded weekly check-ins, introduced a robust task management system, and conducted regular debugging sessions to enhance productivity and collaboration.",
+      "• Accelerated project timelines and improved code quality by conducting code reviews and preaching standard coding practices through constructive feedback.",
+      "• Increased web development proficiency amongst student developers by presenting workshops and assigning practice projects over a 10-week curriculum."
+    ],
+    "tags": [
+      "Project Management",
+      "Team Collaboration",
+      "Leadership",
+      "Debugging",
+      "Github",
+      "HTML/CSS",
+      "React",
+      "Javascript"
+    ]
+  },
+  {
+    "id": "juniInstructor",
+    "company": "Juni Learning",
+    "role": "Computer Science Instructor",
+    "image": "juniLogo.png",
+    "startDate": "Jul 2022",
+    "endDate": "Jun 2023",
+    "description": [
+      "• Taught fundamental CS concepts, algorithms, and debugging skills in a Python project-based curriculum.",
+      "• Fostered critical thinking skills and promoted good coding practices in design, development, and testing stages."
+    ],
+    "tags": ["Python", "Tutoring", "Communication"]
+  },
+  {
+    "id": "aggieworksTechLead",
+    "company": "AggieWorks",
+    "role": "Tech Lead",
+    "image": "aggieworksLogo.png",
+    "startDate": "Jan 2022",
+    "endDate": "May 2022",
+    "description": [
+      "• Researched backend technologies and kickstarted development for roommate-finding app for UC Davis students.",
+      "• Oversaw product development progress by creating development roadmap and assigning weekly tasks.",
+      "• Fostered effective communication between engineering team and product managers regarding project progress, ensuring alignment for project success."
+    ],
+    "tags": ["SCRUM", "Teamwork", "Communication", "Project Management"]
+  },
+  {
+    "id": "aggieworksDeveloper",
+    "company": "AggieWorks",
+    "role": "Backend Engineer",
+    "image": "aggieworksLogo.png",
+    "startDate": "Jan 2021",
+    "endDate": "Jan 2022",
+    "description": [
+      "• Developed REST API endpoints and expanded reviews database using SQL, Postman, and Java, resulting in more insightful and informative course reviews for 30,000 + UC Davis students.",
+      "• Engineered backend of “Report a Bug” page using React and Google Sheets API to efficiently collect and manage user feedback, contributing to improved website quality.",
+      "• Designed badge system for student reviewer profiles to offer insights into reviewers’ background and potential bias, enhancing credibility and transparency of the platform."
+    ],
+    "tags": [
+      "REST APIs",
+      "Java",
+      "SQL",
+      "React",
+      "Postman",
+      "Github",
+      "SCRUM",
+      "Problem-Solving",
+      "Teamwork",
+      "Communication"
+    ]
+  },
+  {
+    "id": "includeDeveloper",
+    "company": "#include",
+    "role": "Full-Stack Engineer",
+    "image": "includeLogo.jpeg",
+    "startDate": "Sep 2020",
+    "endDate": "Jun 2021",
+    "description": [
+      "• Developed and queried email database to assess user eligibility for event registrations, streamlining event management and reducing administrative workload for nonprofit organization.",
+      "• Collaborated in cross-functional team of 10+ engineers and designers to ensure quality webpages of high-impact projects.",
+      "• Self-taught and leveraged 5+ new programming tools within 10 weeks to enhance efficiency and site functionality, resulting in elevated online presence and mission support of client organizations."
+    ],
+    "tags": [
+      "Python",
+      "Python Flask",
+      "SQLAlchemy",
+      "HTML/CSS",
+      "React",
+      "Problem-Solving",
+      "Teamwork",
+      "Communication",
+      "Web Development",
+      "Github"
+    ]
+  }
+]
