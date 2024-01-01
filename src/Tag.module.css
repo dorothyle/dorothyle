@@ -19,6 +19,7 @@
   margin-bottom: 0.3rem;
 }
 
+/* Small */
 @media screen and (min-width: 665px) {
   .tagBox {
     border: 0.1rem solid transparent;
@@ -26,7 +27,19 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* Medium */
+@media screen and (min-width: 988px) {
+  .tagBox {
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+
+    margin-right: 0.3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   /* dummy width */
   .tagBox {
     border: 3px solid transparent;

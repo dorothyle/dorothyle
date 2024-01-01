@@ -91,6 +91,7 @@
   margin-bottom: 0.5rem;
 }
 
+/* Small */
 @media screen and (min-width: 665px) {
   .experienceCardContainer {
     height: 4rem;
@@ -124,5 +125,40 @@
 
   .descriptionContainer {
     font-size: 0.9rem;
+  }
+}
+
+/* Medium */
+@media screen and (min-width: 988px) {
+  .experienceCardContainer {
+    height: 5.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 3px solid transparent;
+  }
+
+  .roleTitleContainer {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .companyLogoContainer {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .companyInfoContainer h2 {
+    margin-left: 1rem;
+  }
+
+  .subheadingContainer {
+    margin-bottom: 0.7rem;
+  }
+
+  .tagsContainer {
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
   }
 }
