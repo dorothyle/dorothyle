@@ -39,7 +39,15 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+/* Large */
+@media screen and (min-width: 1212px) {
+  .tagBox {
+    border-width: 0.15rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
   /* dummy width */
   .tagBox {
     border: 3px solid transparent;

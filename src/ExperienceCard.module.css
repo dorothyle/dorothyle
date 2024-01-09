@@ -162,3 +162,18 @@
     margin-bottom: 1rem;
   }
 }
+
+/* Large */
+@media screen and (min-width: 1212px) {
+  .companyInfoContainer h2 {
+    font-size: 1.5rem;
+  }
+
+  .subheadingContainer {
+    font-size: 1.2rem;
+  }
+
+  .descriptionContainer {
+    font-size: 1rem;
+  }
+}
