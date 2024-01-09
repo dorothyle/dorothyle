@@ -176,4 +176,8 @@
   .descriptionContainer {
     font-size: 1rem;
   }
+
+  .experienceCardContainer {
+    border-width: 0.2rem;
+  }
 }
