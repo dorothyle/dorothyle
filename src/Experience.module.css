@@ -52,3 +52,11 @@
     font-size: 2.5rem;
   }
 }
+
+/* Larger */
+@media screen and (min-width: 1500px) {
+  .experienceContainer {
+    margin-right: 9rem;
+    margin-left: 9rem;
+  }
+}

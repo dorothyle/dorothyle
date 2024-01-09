@@ -46,16 +46,3 @@
     font-size: 1rem;
   }
 }
-
-@media screen and (min-width: 1500px) {
-  /* dummy width */
-  .tagBox {
-    border: 3px solid transparent;
-    border-radius: 0.6875rem;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    margin-right: 0.3rem;
-  }
-}
