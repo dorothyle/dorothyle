@@ -1,0 +1,48 @@
+.tagBox {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(rgba(149, 107, 255, 0.7) 0%, #74e6ff 100%) border-box;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+
+  color: #353636;
+  font-family: Khula;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+
+  display: inline-block;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  padding-top: 0.2rem;
+
+  margin-right: 0.15rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Small */
+@media screen and (min-width: 665px) {
+  .tagBox {
+    border: 0.1rem solid transparent;
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium */
+@media screen and (min-width: 988px) {
+  .tagBox {
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+
+    margin-right: 0.3rem;
+  }
+}
+
+/* Large */
+@media screen and (min-width: 1212px) {
+  .tagBox {
+    border-width: 0.15rem;
+    font-size: 1rem;
+  }
+}
