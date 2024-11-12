@@ -23,7 +23,6 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/dorothykl
 </div>
 
 ## My Stats
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=dorothyle&theme=light&background=white)](https://git.io/streak-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dorothyle&layout=compact&theme=vision-friendly-light)](https://github.com/anuraghazra/github-readme-stats)
 
 <img src="https://komarev.com/ghpvc/?username=dorothyle&style=pixel&color=9af5c2" alt=""/>
